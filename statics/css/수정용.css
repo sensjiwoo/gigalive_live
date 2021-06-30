@@ -1,0 +1,26 @@
+/*  TTS 아이콘가리기 위해 z-index 조절
+ 1. 첨부파일 전체창 , 2. 첨부파일 닫기 버튼 */
+
+ @media all and (max-width:767px) {    
+    .filelist_cont {
+        z-index: 999 !important;
+    }
+
+    .file_btn {
+        z-index: 9999 !important;
+    }
+}
+
+/* 3. 파일공유완료 텍스트 */
+.MuiTypography-body1 {
+    width: 100% !important;
+    height: 46px !important;
+    line-height: 46px !important;
+    text-align: right !important;
+    padding: 0 50px 0 0 !important;
+}
+/* 4. 파일명 텍스트 */
+p.file_name {
+    white-space: nowrap !important;
+}
+
